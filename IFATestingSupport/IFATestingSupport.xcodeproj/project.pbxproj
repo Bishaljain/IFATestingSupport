@@ -182,7 +182,6 @@
 				F7ADBF821FA90C1900C6B2BD /* Frameworks */,
 				F7ADBF831FA90C1900C6B2BD /* Headers */,
 				F7ADBF841FA90C1900C6B2BD /* Resources */,
-				297FED55D0E46081012FC8EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,7 +201,6 @@
 				F7C65C0C1FA95C4B0058AF46 /* Frameworks */,
 				F7C65C0D1FA95C4B0058AF46 /* Resources */,
 				74A05E25DD736FA9F5664C83 /* [CP] Embed Pods Frameworks */,
-				58BBCA00FD2B1047B8C25FDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,43 +267,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		297FED55D0E46081012FC8EB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-IFATestingSupport/Pods-IFATestingSupport-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58BBCA00FD2B1047B8C25FDC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-IFATestingSupport-IFATestingSupportTests/Pods-IFATestingSupport-IFATestingSupportTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		74A05E25DD736FA9F5664C83 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../Pods/Target Support Files/Pods-IFATestingSupport-IFATestingSupportTests/Pods-IFATestingSupport-IFATestingSupportTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IFATestingSupport-IFATestingSupportTests/Pods-IFATestingSupport-IFATestingSupportTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/OCHamcrest/OCHamcrest.framework",
 				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
 			);
@@ -316,7 +284,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-IFATestingSupport-IFATestingSupportTests/Pods-IFATestingSupport-IFATestingSupportTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IFATestingSupport-IFATestingSupportTests/Pods-IFATestingSupport-IFATestingSupportTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BDCB2062B0A7EF01C112D592 /* [CP] Check Pods Manifest.lock */ = {
